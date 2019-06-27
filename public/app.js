@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     $.ajax({
         method : "GET",
-        url : "http://localhost:3030/users",
+        url : "/users",
         success : function(response) {
             console.log(response);
             users = response;
